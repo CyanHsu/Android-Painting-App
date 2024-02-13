@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DrawFragment">
+
+    <com.example.paintproject.CustomView
+        android:id="@+id/customView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/colorBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Color" />
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/shapeBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Shape" />
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/sizeBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Size" />
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="match_parent" />
+    <Switch
+        android:id="@+id/ballBtn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1.2"
+        android:text="Sensor Drawing" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="Back home" />
+
+
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Clean up" />
+
+    <Button
+        android:id="@+id/optionsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="Save" />
+
+<!--    <Button-->
+<!--        android:id="@+id/ballBtn"-->
+<!--        android:layout_width="95dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="575px"-->
+<!--        android:text="Sensor" />-->
+
+
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:text="Share" />
+
+
+
+</FrameLayout>

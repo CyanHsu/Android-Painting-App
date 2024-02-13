@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "404999577837",
+    "project_id": "cs6018-7b724",
+    "storage_bucket": "cs6018-7b724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404999577837:android:476228bceecfc41ee66ce4",
+        "android_client_info": {
+          "package_name": "com.example.paintproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA33CyJf3c_tyqwEgD4VSm8wea1Wy4c7Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
